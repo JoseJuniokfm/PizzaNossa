@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PIZZARIA DO IFRN - 
+      {% block título %}
+      {% endblock %}
+    </title>
+  </head>
+  <body>
+    <nav>
+      <a href='/'>PÁGINA INCIAL</a>| 
+      <a href='/cardapio'>CARDÁPIO</a> |
+      <a href='/avalia'> AVALIAÇÕES</a> |
+      <a href='/fale'>FALE CONOSCO </a> |
+      <a href='/login'>LOGIN </a>
+    </nav>
+
+    <main>
+      {% block pizza%}
+      {% endblock %}
+    </main>
+
+    <footer>
+      <h5> Desenvolvido por: Juninho - boy de GUI</h5>
+    </footer>
+  </body>
+</html>
